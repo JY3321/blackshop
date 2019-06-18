@@ -572,7 +572,7 @@
     </div>
     <div class="waterfoo stark-components row">
         <div class="item-wrapper normal">
-            <c:forEach var="item" items="${catelogGoods7}">//
+            <c:forEach var="item" items="${catelogGoods7}">
                 <div class="card col">
                     <a href="<%=basePath%>goods/goodsId/${item.goods.id}">
                         <div class="card-image">

@@ -5,346 +5,19 @@
   </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="blackshop:war exploded" />
-      <artifact name="blackshop:war exploded" />
+      <artifact name="blackshop:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b29518e-9a77-4a0f-9d4a-486692f7031c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/META-INF/blackshop.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/controller/AdminController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/controller/CatelogController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/controller/GoodsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/controller/MainController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/controller/OrdersController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/dao/AdminMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/dao/CatelogMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/dao/CommentsMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/dao/FocusMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/dao/GoodsMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/dao/ImageMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/dao/NoticeMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/dao/OrdersMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/dao/PurseMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/dao/ReplyMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/dao/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/pojo/Admin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/pojo/Catelog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/pojo/CommentData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/pojo/CommentExtend.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/pojo/Comments.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/pojo/Focus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/pojo/Goods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/pojo/GoodsExtend.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/pojo/Image.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/pojo/Notice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/pojo/NoticeExtend.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/pojo/Orders.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/pojo/Purse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/pojo/Reply.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/service/AdminService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/service/CatelogService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/service/FocusService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/service/GoodsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/service/ImageService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/service/NoticeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/service/OrdersService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/service/PurseService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/service/impl/AdminServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/service/impl/CatelogServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/service/impl/FocusServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/service/impl/GoodsServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/service/impl/ImageServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/service/impl/NoticeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/service/impl/OrdersServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/service/impl/PurseServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/util/CellRegion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/util/DateUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/util/GoodsGrid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/util/MD5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/util/OrdersGrid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/util/PurseGrid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/util/ReadExcel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/util/UserGrid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/cugb/util/WriteExcel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/conf/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/conf/generatorConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/conf/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/conf/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/conf/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/conf/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/mapper/AdminMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/mapper/CatelogMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/mapper/CommentsMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/mapper/FocusMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/mapper/GoodsMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/mapper/ImageMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/mapper/NoticeMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/mapper/OrdersMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/mapper/PurseMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/mapper/ReplyMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/aspectjweaver-1.7.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/commons-codec-1.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/commons-fileupload-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/commons-lang3-3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/commons-logging-1.1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/druid-1.0.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/fastjson-1.1.29.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/jackson-annotations-2.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/jackson-core-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/jackson-databind-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/javassist-3.11.0.GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/jsqlparser-0.9.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/log4j-1.2.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/mybatis-3.2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/mybatis-generator-core-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/mybatis-spring-1.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/mysql-connector-java-5.1.30.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/ognl-3.0.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/pagehelper-4.1.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/poi-3.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/slf4j-api-1.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/slf4j-log4j12-1.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/spring-aop-4.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/spring-beans-4.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/spring-context-4.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/spring-context-support-4.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/spring-core-4.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/spring-expression-4.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/spring-jdbc-4.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/spring-orm-4.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/spring-tx-4.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/spring-web-4.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/spring-webmvc-4.0.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/admin/goods/goods_list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/admin/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/admin/info.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/admin/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/admin/main_bottom.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/admin/main_left.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/admin/main_top.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/admin/modify.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/admin/orders/orders_list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/admin/purse/purse_list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/admin/user/user_add.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/admin/user/user_list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/admin/userList.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/error/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/error/error.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/goods/catelogGoods.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/goods/detailGoods.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/goods/editGoods.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/goods/homeGoods.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/goods/pubGoods.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/goods/searchGoods.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/user/basic.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/user/focus.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/user/goods.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/user/home.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/user/orders.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/user/pay.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/user/purse.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/css/bootstrap-combined.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/css/bootstrap-datetimepicker.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/css/bootstrap-responsive.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/css/bootstrap3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/css/custom/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/css/detail.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/css/emoji.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/css/fileinput.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/css/info_main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/css/jquery.bootgrid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/css/materialize-icon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/css/matrix-login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/css/matrix-media.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/css/matrix-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/css/mypage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/css/user.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/css/userhome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/font-awesome/css/Descr.WD3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/font-awesome/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/font-awesome/font/Descr.WD3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/font-awesome/font/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/font-awesome/font/fontawesome-webfont.eot@" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/font-awesome/font/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/font-awesome/font/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/Descr.WD3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/alpha.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/book.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/breadcrumb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/commodity.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/digital.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/file-1493726053986.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/glyphicons-halflings-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/glyphicons-halflings.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/gritter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/hue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/index.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/indexbg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/indexgbg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/larrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/line.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/loading-sm.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/logo_header.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/logo_join.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/logo_lg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/logo_yl.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/makeup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/nopic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/photo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/photo1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/photo2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/photo3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/photo4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/photo5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/rarrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/ride.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/saturation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/select2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/smallthing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/spinner.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/sport.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/img/mypurse.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/bootstrap-datetimepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/bootstrap-datetimepicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/bootstrap-datetimepicker.zh-CN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/bootstrap-paginator.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/countUp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/custom/base.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/fileinput.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/index.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/jquery-1.10.2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/jquery-3.1.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/jquery.bootgrid.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/jquery.complexify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/jquery.md5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/jquery.validate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/materialize.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/matrix.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/matrix.login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/script_batch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/script_business.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/script_category.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/script_dish.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/script_ipc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/script_singlechip.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/script_square.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/script_store.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/script_taste.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/script_user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/js/zh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/pages/register.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/0583cb1e-6acd-46da-bebc-4a9f1d6c3ac7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/110456d4-cc20-4fe2-b0a6-217b023d7dd6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/1ba8f318-fbf3-42f6-b8d9-0baa7e678cec.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/23f242e3-6dbf-4d46-a1b2-a620918908d9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/241ffa92-ea6f-4ea5-a212-89db2f6a408f (1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/241ffa92-ea6f-4ea5-a212-89db2f6a408f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/241ffa92-ea6f-4ea5-a212-89db2f6a408f.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/266abea1-a202-47f2-b5c4-095e96c10473.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/292a0587-2553-443b-b2ee-0bacd8261d2a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/2c35301f-b955-44c7-973f-93101116ebab.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/330a9a46-6434-4d04-a72b-a91a14035229.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/33434fa2-8bf3-4fbc-b1d9-d1e67202e2f2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/3b2e9317-9699-488c-884d-fc8798e9dbe2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/40bb2b44-ff51-4398-8996-ed0752f8f7d1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/451c3aa2-529d-449d-b69f-b8771af1d806.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/455e9ee5-92a7-4c7c-aa94-55f4373a16ee.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/46af4316-a0c3-4a8d-ab89-04c6f6c41ad2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/499afa59-53bc-4d23-99ef-5d0f9d60de69.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/4d472617-d430-4540-a510-f7606861dde0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/4f320b75-427a-484e-b725-a2f5d066af6f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/4f845a5a-18bf-4379-b85a-217b4f354286.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/504d47df-32b0-4195-b63c-10d1562896cc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/599629aa-9440-435c-8185-42e34a862470.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/5c212d57-d8a4-4cc0-8853-dba957fba3d5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/6664b320-87d4-4d37-b14f-fc5dba41f529.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/67a5f2ee-a09a-488d-9e7a-87ac6d8ab9c4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/7eb89aaa-56c0-4283-893f-bd5718301d80.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/803a4f31-bd79-4f66-9c9f-59aa582b9734.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/854dff80-d049-4381-ae40-d1d23cd0e88b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/88f88cc4-a753-4793-84f3-6a407d3abc6e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/8aa4c3da-cf81-4023-aae0-7551cb9551b3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/95daa308-8011-4e0c-b5bd-8cd151830c32.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/a634ca2b-70cc-404d-95cb-fc4166fe6706.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/ad27fdda-e0d2-4295-a4d5-57f039bae5f8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/ae1097a5-736d-4850-9552-b5901ad6d84b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/afd57674-338c-414f-98ae-78e0d25b12f8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/b0933eb3-1ccb-43e1-80a4-1d50902916db.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/b10d6fb8-3b27-43fb-9d0c-dfa39da205c4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/b11c6721-b4d0-4ac5-98d3-f50c1f95d415.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/b3e0caa0-47c4-41c9-aa60-66e24dd68eeb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/b5c9fe58-86ca-4bfb-8f9c-37bb0a361821.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/ce18c0f4-dc10-454e-9791-e1992164a384.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/dc4f9591-bd1a-4eac-b1ea-be6412296fb6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/e54fd261-1d2b-4198-9c61-5dbf94b2ede9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/e62acc43-8122-421a-940b-a68e6aeadd30.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/e9bd5f1d-6b23-4d82-99fd-8be4d503784d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/ec5369f6-7c87-43db-98aa-112efa91c8c6.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/f3d69569-02a1-4334-aad1-f0557b598b61.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/f7418ea1-a9c9-463f-afdd-3107294004b1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/fd680315-9ac8-4268-803e-7da7b492e8b0.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/nopic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/nopic1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/nopic11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/nopic12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/nopic13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/nopic16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/nopic17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/nopic18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/nopic2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/nopic20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/nopic3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/nopic5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/nopic6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/nopic7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/nopic8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/squirrel/upload/nopic9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/blackshop_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/blackshop_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blackshop/upload/292a0587-2553-443b-b2ee-0bacd8261d2a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blackshop/upload/2c35301f-b955-44c7-973f-93101116ebab.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blackshop/upload/4f845a5a-18bf-4379-b85a-217b4f354286.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blackshop/upload/803a4f31-bd79-4f66-9c9f-59aa582b9734.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blackshop/upload/8aa4c3da-cf81-4023-aae0-7551cb9551b3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blackshop/upload/b10d6fb8-3b27-43fb-9d0c-dfa39da205c4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blackshop/upload/b3e0caa0-47c4-41c9-aa60-66e24dd68eeb.jpg" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -394,28 +67,57 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/conf/jdbc.properties">
+        <entry file="file://$PROJECT_DIR$/target/blackshop/css/fileinput.min.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/blackshop/css/font-awesome.min.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/blackshop/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-            </state>
+            <state relative-caret-position="-741" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring-mvc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1064">
-              <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/target/blackshop/css/info_main.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/blackshop/css/jquery.bootgrid.min.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/blackshop/css/matrix-login.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/blackshop/css/matrix-style.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/blackshop/css/mypage.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/blackshop/css/style.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/homeGoods.jsp">
+        <entry file="file://$PROJECT_DIR$/target/blackshop/WEB-INF/pages/goods/homeGoods.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3895">
-              <caret line="205" column="54" selection-start-line="205" selection-start-column="54" selection-end-line="205" selection-end-column="54" />
+            <state relative-caret-position="164">
+              <caret line="577" column="48" lean-forward="true" selection-start-line="577" selection-start-column="48" selection-end-line="577" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -494,7 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="E:/kangaroo/pom.xml" />
         <option value="E:/kangaroo/src/main/resources/application-dev.properties" />
         <option value="E:/kangaroo/src/main/resources/application-pro.properties" />
         <option value="E:/kangaroo/src/main/resources/application.properties" />
@@ -545,6 +246,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/conf/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/conf/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/target/blackshop/WEB-INF/pages/goods/homeGoods.jsp" />
       </list>
     </option>
   </component>
@@ -590,9 +292,9 @@
   <component name="MavenRunner">
     <option name="jreName" value="#JAVA_HOME" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1" />
-    <option name="y" value="13" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="59" />
+    <option name="y" value="83" />
     <option name="width" value="1712" />
     <option name="height" value="895" />
   </component>
@@ -625,6 +327,59 @@
               <item name="blcakshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="blcakshop" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="blackshop" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blcakshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blcakshop" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="blackshop" type="462c0819:PsiDirectoryNode" />
+              <item name="font-awesome" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blcakshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blcakshop" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="blackshop" type="462c0819:PsiDirectoryNode" />
+              <item name="font-awesome" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blcakshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blcakshop" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="blackshop" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blcakshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blcakshop" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="blackshop" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blcakshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blcakshop" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="blackshop" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blcakshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blcakshop" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="blackshop" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="goods" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blcakshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blcakshop" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
               <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -632,6 +387,10 @@
               <item name="blcakshop" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
               <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blcakshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -648,7 +407,7 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="js-jscs-nodeInterpreter" value="D:\SoftWare\Nodejs\node.exe" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target/blackshop" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -1103,12 +862,12 @@
       <workItem from="1557317729806" duration="3006000" />
       <workItem from="1560736362127" duration="5564000" />
       <workItem from="1560751735336" duration="727000" />
-      <workItem from="1560817989050" duration="150000" />
+      <workItem from="1560817989050" duration="5766000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="370177000" />
+    <option name="totallyTimeSpent" value="375793000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1120,9 +879,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="59" y="83" width="1712" height="895" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.62103504" visible="true" weight="0.18763326" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.62103504" visible="true" weight="0.21307506" />
       <window_info id="Structure" order="1" sideWeight="0.37896493" side_tool="true" weight="0.19349681" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Designer" order="3" />
@@ -1133,7 +893,7 @@
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.78329295" weight="0.39370078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48294243" weight="0.39290407" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48294243" visible="true" weight="0.4756899" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.27287066" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1218,143 +978,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/goods.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="55" column="176" selection-start-line="55" selection-start-column="176" selection-end-line="55" selection-end-column="176" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/orders.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="74" column="176" selection-start-line="74" selection-start-column="176" selection-end-line="74" selection-end-column="176" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/purse.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="57" column="177" selection-start-line="57" selection-start-column="177" selection-end-line="57" selection-end-column="177" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="118" column="151" selection-start-line="118" selection-start-column="151" selection-end-line="118" selection-end-column="151" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/pay.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="79" column="154" selection-start-line="79" selection-start-column="154" selection-end-line="79" selection-end-column="154" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/goods/goods_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2432">
-          <caret line="128" column="32" selection-start-line="128" selection-start-column="32" selection-end-line="128" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3686">
-          <caret line="194" column="37" selection-start-line="194" selection-start-column="37" selection-end-line="194" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/basic.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="52" column="151" selection-start-line="52" selection-start-column="151" selection-end-line="52" selection-end-column="151" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/orders/orders_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1957">
-          <caret line="103" column="32" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cugb/util/MD5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cugb/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1791">
-          <caret line="244" column="42" lean-forward="true" selection-start-line="244" selection-start-column="42" selection-end-line="244" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cugb/service/AdminService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cugb/service/ImageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/userhome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-128">
-          <caret line="63" column="50" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/user.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4788" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/script_user.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/script_taste.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/main_bottom.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1552,10 +1175,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/target/blackshop/img/photo2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/blackshop/css/emoji.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/homeGoods.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3895">
-          <caret line="205" column="54" selection-start-line="205" selection-start-column="54" selection-end-line="205" selection-end-column="54" />
+        <state relative-caret-position="-1482">
+          <caret line="366" column="38" lean-forward="true" selection-start-line="366" selection-start-column="38" selection-end-line="366" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/blackshop/css/bootstrap-datetimepicker.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/blackshop/css/bootstrap3.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/blackshop/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/blackshop/css/bootstrap-responsive.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/blackshop/css/bootstrap-theme.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/blackshop/css/detail.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/blackshop/css/fileinput.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/blackshop/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/blackshop/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-741" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/blackshop/css/info_main.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/blackshop/css/jquery.bootgrid.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/blackshop/css/matrix-login.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/blackshop/css/matrix-style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/blackshop/css/mypage.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/blackshop/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/blackshop/WEB-INF/pages/goods/homeGoods.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="577" column="48" lean-forward="true" selection-start-line="577" selection-start-column="48" selection-end-line="577" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -1576,7 +1268,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>blackshop:war exploded</last-edited>
+          <last-edited>blackshop:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
