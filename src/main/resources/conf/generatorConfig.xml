@@ -15,9 +15,9 @@
 
         <!--数据库连接 -->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://localhost:3306/squirrel"
+                        connectionURL="jdbc:mysql://localhost:3306/blackshop"
                         userId="root"
-                            password="Nothing1">
+                            password="qwaszx123">
         </jdbcConnection>
         <javaTypeResolver >
             <property name="forceBigDecimals" value="false" />

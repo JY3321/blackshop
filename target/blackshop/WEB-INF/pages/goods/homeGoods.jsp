@@ -193,7 +193,7 @@
                     <div class="col s12 title"></div>
                 </a>
                 <form action="<%=basePath%>user/login" method="post" role="form">
-                    <div clauss="inpt-field col s12">
+                    <div class="input-field col s12">
                         <input type="text" name="phone" id="login_phone" required="required" pattern="^1[0-9]{10}$" class="validate ng-pristine ng-empty ng-invalid ng-invalid-required ng-valid-pattern ng-touched" />
                         <label>手机&nbsp;&nbsp;<div id="login_errorPhone" style="color:red;display:inline;"></div></label>
                     </div>
@@ -572,7 +572,7 @@
     </div>
     <div class="waterfoo stark-components row">
         <div class="item-wrapper normal">
-            <c:forEach var="item" items="${catelogGoods7}">//
+            <c:forEach var="item" items="${catelogGoods7}">
                 <div class="card col">
                     <a href="<%=basePath%>goods/goodsId/${item.goods.id}">
                         <div class="card-image">
