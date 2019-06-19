@@ -67,7 +67,7 @@ public class OrdersController {
         orders.setUserId(user_id);
         orders.setOrderDate(sdf.format(d));
         Goods goods=new Goods();
-        goods.setStatus(0);
+        goods.setStatus(2);
         goods.setId(orders.getGoodsId());
         goodsService.updateGoodsByGoodsId(goods);
         ordersService.addOrders(orders);

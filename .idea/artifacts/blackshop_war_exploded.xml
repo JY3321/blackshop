@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="blackshop:war exploded">
-    <output-path>$PROJECT_DIR$/target/blackshop</output-path>
+    <output-path>$PROJECT_DIR$/target/squirrel</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
@@ -53,7 +53,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/target/blackshop/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/target/squirrel/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="blackshop/web/Web" />
     </root>

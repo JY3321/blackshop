@@ -429,5 +429,4 @@ public class GoodsController {
 		modelAndView.setViewName("/user/pay");
 		return modelAndView;
 	}
-	
 }

@@ -13,6 +13,9 @@ File Encoding         : 65001
 Date: 2018-12-29 20:45:42
 */
 
+CREATE DATABASE blackshop;
+USE blackshop;
+
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
