@@ -18,9 +18,9 @@
     <context:component-scan base-package="com.cugb.service.impl"/>
     <bean id = "dataSource" class = "com.alibaba.druid.pool.DruidDataSource" destroy-method = "close">
         <!-- 数据库基本信息配置 -->
-               <property name = "url" value = "${druid.url}" />
+        <property name = "url" value = "${druid.url}" />
         <property name = "username" value = "${druid.username}" />
-        <property name = "password" value = "Nothing1" />
+        <property name = "password" value = "qwaszx123" />
         <property name = "driverClassName" value = "${druid.driverClassName}" />
         <property name = "filters" value = "${druid.filters}" />
 
