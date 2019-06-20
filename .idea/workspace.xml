@@ -9,9 +9,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b29518e-9a77-4a0f-9d4a-486692f7031c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/conf/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/conf/applicationContext.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2b29518e-9a77-4a0f-9d4a-486692f7031c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="E:/favorites-web/.gradle/" />
@@ -84,7 +82,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/conf/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
@@ -93,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cugb/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="145">
-              <caret line="103" column="17" lean-forward="true" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
+              <caret line="109" column="15" lean-forward="true" selection-start-line="109" selection-start-column="15" selection-end-line="109" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -317,7 +315,7 @@
   <component name="MavenRunner">
     <option name="jreName" value="#JAVA_HOME" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-102" />
     <option name="y" value="339" />
     <option name="width" value="1714" />
@@ -892,12 +890,12 @@
       <workItem from="1560925223344" duration="2591000" />
       <workItem from="1560928240346" duration="2274000" />
       <workItem from="1560991825719" duration="2241000" />
-      <workItem from="1560996832730" duration="1836000" />
+      <workItem from="1560996832730" duration="2711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="390409000" />
+    <option name="totallyTimeSpent" value="391284000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -910,9 +908,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8291572" visible="true" weight="0.1986711" />
-      <window_info id="Structure" order="1" sideWeight="0.17084283" side_tool="true" visible="true" weight="0.1986711" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8934081" visible="true" weight="0.1986711" />
+      <window_info id="Structure" order="1" sideWeight="0.106591865" side_tool="true" visible="true" weight="0.1986711" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -922,7 +921,7 @@
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.78329295" weight="0.37903225" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48294243" visible="true" weight="0.38429174" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48294243" weight="0.38429174" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.27287066" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1258,13 +1257,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cugb/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="103" column="17" lean-forward="true" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/homeGoods.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -1291,6 +1283,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cugb/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="109" column="15" lean-forward="true" selection-start-line="109" selection-start-column="15" selection-end-line="109" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -1313,6 +1312,7 @@
             <option name="proportions">
               <list>
                 <option value="0.3045977" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
