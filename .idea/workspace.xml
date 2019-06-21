@@ -9,7 +9,45 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b29518e-9a77-4a0f-9d4a-486692f7031c" name="Default" comment="" />
+    <list default="true" id="2b29518e-9a77-4a0f-9d4a-486692f7031c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cugb/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cugb/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cugb/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cugb/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cugb/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cugb/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cugb/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cugb/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/GoodsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/GoodsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/NoticeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/NoticeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/goods/goods_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/goods/goods_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/user/user_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/user/user_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/catelogGoods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/catelogGoods.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/detailGoods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/detailGoods.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/searchGoods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/searchGoods.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/basic.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/basic.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blackshop/WEB-INF/classes/com/cugb/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blackshop/WEB-INF/classes/com/cugb/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blackshop/WEB-INF/classes/com/cugb/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blackshop/WEB-INF/classes/com/cugb/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blackshop/WEB-INF/classes/com/cugb/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/blackshop/WEB-INF/classes/com/cugb/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blackshop/WEB-INF/classes/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/blackshop/WEB-INF/classes/mapper/AdminMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blackshop/WEB-INF/classes/mapper/GoodsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/blackshop/WEB-INF/classes/mapper/GoodsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blackshop/WEB-INF/classes/mapper/NoticeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/blackshop/WEB-INF/classes/mapper/NoticeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blackshop/WEB-INF/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/blackshop/WEB-INF/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blackshop/WEB-INF/pages/admin/goods/goods_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/blackshop/WEB-INF/pages/admin/goods/goods_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blackshop/WEB-INF/pages/admin/user/user_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/blackshop/WEB-INF/pages/admin/user/user_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blackshop/WEB-INF/pages/goods/catelogGoods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/blackshop/WEB-INF/pages/goods/catelogGoods.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blackshop/WEB-INF/pages/goods/detailGoods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/blackshop/WEB-INF/pages/goods/detailGoods.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blackshop/WEB-INF/pages/goods/searchGoods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/blackshop/WEB-INF/pages/goods/searchGoods.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blackshop/WEB-INF/pages/user/basic.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/blackshop/WEB-INF/pages/user/basic.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/blackshop/pages/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/blackshop/pages/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cugb/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cugb/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cugb/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cugb/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cugb/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cugb/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/AdminMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/GoodsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/GoodsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/NoticeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/NoticeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="E:/favorites-web/.gradle/" />
@@ -60,78 +98,76 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/homeGoods.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="202" column="34" lean-forward="true" selection-start-line="202" selection-start-column="34" selection-end-line="202" selection-end-column="34" />
+            <state relative-caret-position="5016">
+              <caret line="264" column="6" selection-start-line="264" selection-start-column="6" selection-end-line="264" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/conf/generatorConfig.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/custom/base.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-57" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/conf/jdbc.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            <state relative-caret-position="1235">
+              <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/conf/applicationContext.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cugb/controller/AdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="4351">
+              <caret line="250" column="57" selection-start-line="250" selection-start-column="25" selection-end-line="250" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cugb/controller/UserController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/goods/goods_list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="109" column="15" lean-forward="true" selection-start-line="109" selection-start-column="15" selection-end-line="109" selection-end-column="15" />
+            <state relative-caret-position="90">
+              <caret line="228" column="97" lean-forward="true" selection-start-line="228" selection-start-column="97" selection-end-line="228" selection-end-column="97" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cugb/dao/UserMapper.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/info.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/detailGoods.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="4237">
+              <caret line="223" column="6" selection-start-line="223" selection-start-column="6" selection-end-line="223" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cugb/service/UserService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/user/user_list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="3857">
+              <caret line="203" column="18" selection-start-line="203" selection-start-column="18" selection-end-line="203" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cugb/pojo/User.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/GoodsMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6080">
+              <caret line="320" column="14" selection-start-line="320" selection-start-column="14" selection-end-line="320" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cugb/pojo/Goods.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -139,8 +175,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/searchGoods.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="271" column="12" selection-start-line="271" selection-start-column="12" selection-end-line="271" selection-end-column="12" />
+            <state relative-caret-position="-4769">
+              <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -159,19 +195,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>home_header.jpg</find>
-      <find>p_logo.jpg</find>
-      <find>title.png</find>
-      <find>col s12 title</find>
-      <find>p_lo</find>
-      <find>div.login.st</find>
-      <find>div.login.stark-compon</find>
-      <find>class=&quot;logo&quot;</find>
-      <find>recommend</find>
-      <find>logo_yl</find>
-      <find>publish-box</find>
-      <find>logo_header.jpg</find>
-      <find>logo_lg</find>
       <find>logo_logo</find>
       <find>我的钱包</find>
       <find>￥</find>
@@ -185,10 +208,23 @@
       <find>关于我们</find>
       <find>a href=&quot;#&quot; onclick=&quot;javascript:alert('联系我们：QQ：821535576     EMAIL：821535576@qq.com\n')&quot;</find>
       <find>联系我们</find>
-      <find>phone</find>
       <find>getUserByPhone</find>
       <find>errorPhone</find>
       <find>login_phone</find>
+      <find>注册</find>
+      <find>addUser</find>
+      <find>signupController</find>
+      <find>phone</find>
+      <find>手机号码：</find>
+      <find>用户列表显示</find>
+      <find>searchuser</find>
+      <find>deleteUserById</find>
+      <find>getPageUserByUser</find>
+      <find>getUserListByUser</find>
+      <find>请求超时</find>
+      <find>ids</find>
+      <find>getGoods</find>
+      <find>updateByPrimaryKeyWithBLOBs</find>
     </findStrings>
     <replaceStrings>
       <replace>ldu</replace>
@@ -219,9 +255,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/conf/log4j.properties" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/ldu/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ldu/pojo/Goods.java" />
@@ -230,14 +263,11 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/main_bottom.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/main_top.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/userList.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/detailGoods.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/matrix-style.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/user.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/detail.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/pages/register.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/cugb/util/MD5.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/userhome.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/basic.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/focus.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/goods.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/orders.jsp" />
@@ -250,26 +280,32 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/editGoods.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/conf/spring-mvc.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cugb/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cugb/util/UserGrid.java" />
         <option value="$PROJECT_DIR$/target/blackshop/WEB-INF/pages/goods/homeGoods.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/goods/goods_list.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/cugb/controller/OrdersController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/OrdersMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/GoodsMapper.xml" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/main_left.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/catelogGoods.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/searchGoods.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/cugb/dao/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cugb/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cugb/pojo/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cugb/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cugb/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/homeGoods.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/conf/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/conf/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cugb/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/NoticeMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/GoodsMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/catelogGoods.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/searchGoods.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/basic.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/user/user_list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cugb/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cugb/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cugb/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/goods/goods_list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/detailGoods.jsp" />
       </list>
     </option>
   </component>
@@ -316,10 +352,10 @@
     <option name="jreName" value="#JAVA_HOME" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-102" />
-    <option name="y" value="339" />
-    <option name="width" value="1714" />
-    <option name="height" value="879" />
+    <option name="x" value="-107" />
+    <option name="y" value="334" />
+    <option name="width" value="1719" />
+    <option name="height" value="884" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -327,8 +363,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -407,6 +441,40 @@
             <path>
               <item name="blackshop-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="blackshop-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blackshop-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blackshop-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blackshop-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blackshop-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blackshop-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blackshop-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="goods" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blackshop-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blackshop-master" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -415,10 +483,36 @@
               <item name="target" type="462c0819:PsiDirectoryNode" />
               <item name="blackshop" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="blackshop-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blackshop-master" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="blackshop" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blackshop-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blackshop-master" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="blackshop" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blackshop-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blackshop-master" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="blackshop" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -891,11 +985,15 @@
       <workItem from="1560928240346" duration="2274000" />
       <workItem from="1560991825719" duration="2241000" />
       <workItem from="1560996832730" duration="2711000" />
+      <workItem from="1560999693711" duration="8000" />
+      <workItem from="1561000937191" duration="5329000" />
+      <workItem from="1561077364589" duration="488000" />
+      <workItem from="1561078446969" duration="614000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="391284000" />
+    <option name="totallyTimeSpent" value="397723000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -910,8 +1008,8 @@
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8934081" visible="true" weight="0.1986711" />
-      <window_info id="Structure" order="1" sideWeight="0.106591865" side_tool="true" visible="true" weight="0.1986711" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8291572" visible="true" weight="0.20930232" />
+      <window_info id="Structure" order="1" sideWeight="0.17084283" side_tool="true" visible="true" weight="0.20930232" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -921,7 +1019,7 @@
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.78329295" weight="0.37903225" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48294243" weight="0.38429174" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48294243" visible="true" weight="0.38429174" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.27287066" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1006,53 +1104,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/info.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="34" column="40" selection-start-line="29" selection-end-line="53" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1064">
-          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/blackshop/img/photo2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/blackshop/css/emoji.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/blackshop/css/bootstrap-datetimepicker.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="54" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/blackshop/css/bootstrap3.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/blackshop/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/blackshop/css/bootstrap-responsive.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/blackshop/css/bootstrap-theme.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/blackshop/css/detail.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1120,30 +1171,13 @@
     <entry file="file://$PROJECT_DIR$/target/blackshop/js/custom/base.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/blackshop/WEB-INF/pages/admin/goods/goods_list.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/com/cugb/controller/OrdersController.class">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cugb/controller/GoodsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4636">
-          <caret line="281" column="41" selection-start-line="281" selection-start-column="41" selection-end-line="281" selection-end-column="41" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/target/blackshop/WEB-INF/pages/goods/homeGoods.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3990">
           <caret line="210" column="53" selection-start-line="210" selection-start-column="53" selection-end-line="210" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/goods/goods_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7676">
-          <caret line="404" column="34" selection-start-line="403" selection-start-column="16" selection-end-line="404" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -1168,45 +1202,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/GoodsMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="173" column="54" selection-start-line="173" selection-start-column="54" selection-end-line="173" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cugb/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="135" column="39" selection-start-line="135" selection-start-column="39" selection-end-line="135" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/catelogGoods.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5130">
-          <caret line="270" column="100" selection-start-line="270" selection-start-column="100" selection-end-line="270" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/main_left.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
           <caret line="51" column="118" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/searchGoods.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="271" column="12" selection-start-line="271" selection-start-column="12" selection-end-line="271" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1221,72 +1220,197 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cugb/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cugb/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
-            <element signature="e#962#963#0" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
-            <element signature="e#1085#1086#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cugb/dao/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cugb/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/homeGoods.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="202" column="34" lean-forward="true" selection-start-line="202" selection-start-column="34" selection-end-line="202" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/conf/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/conf/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
+        <state>
           <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/conf/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="475">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cugb/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cugb/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/index.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="37151" column="31" selection-start-line="37151" selection-start-column="31" selection-end-line="37151" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="62" lean-forward="true" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/NoticeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cugb/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="109" column="15" lean-forward="true" selection-start-line="109" selection-start-column="15" selection-end-line="109" selection-end-column="15" />
+        <state relative-caret-position="126">
+          <caret line="66" column="45" lean-forward="true" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/basic.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="130" column="16" lean-forward="true" selection-start-line="130" selection-start-column="16" selection-end-line="130" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/catelogGoods.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="117" column="10" lean-forward="true" selection-start-line="117" selection-start-column="10" selection-end-line="117" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#label#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cugb/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="107" column="73" lean-forward="true" selection-start-line="107" selection-start-column="73" selection-end-line="107" selection-end-column="73" />
+          <folding>
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cugb/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="31" column="112" lean-forward="true" selection-start-line="31" selection-start-column="112" selection-end-line="31" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cugb/controller/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2320">
+          <caret line="281" column="41" selection-start-line="281" selection-start-column="41" selection-end-line="281" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/blackshop/WEB-INF/pages/admin/goods/goods_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="231" column="53" lean-forward="true" selection-start-line="231" selection-start-column="53" selection-end-line="231" selection-end-column="53" />
+          <folding>
+            <element signature="n#style#0;n#select#0;n#div#0;n#div#6;n#form#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/blackshop/WEB-INF/pages/admin/user/user_list.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/homeGoods.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5016">
+          <caret line="264" column="6" selection-start-line="264" selection-start-column="6" selection-end-line="264" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/custom/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1235">
+          <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cugb/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4351">
+          <caret line="250" column="57" selection-start-line="250" selection-start-column="25" selection-end-line="250" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/info.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/detailGoods.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4237">
+          <caret line="223" column="6" selection-start-line="223" selection-start-column="6" selection-end-line="223" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/user/user_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3857">
+          <caret line="203" column="18" selection-start-line="203" selection-start-column="18" selection-end-line="203" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/GoodsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6080">
+          <caret line="320" column="14" selection-start-line="320" selection-start-column="14" selection-end-line="320" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cugb/pojo/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/searchGoods.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4769">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/goods/goods_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="228" column="97" lean-forward="true" selection-start-line="228" selection-start-column="97" selection-end-line="228" selection-end-column="97" />
         </state>
       </provider>
     </entry>

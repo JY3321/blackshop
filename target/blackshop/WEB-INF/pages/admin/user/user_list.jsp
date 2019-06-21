@@ -65,8 +65,8 @@ table td{
 			 <form class="form-horizontal" id="myserchform" name="myform" action="<%=basePath%>admin/searchUser" method="post">
 				<div class="form-group">
 				<div  class="col-sm-8" style="text-align:center;">
-					<span >手机：</span>
-					<input type="number" placeholder="请输入正确的手机号~" name="phone" value="${searchuser.phone}"/>
+					<span >邮箱：</span>
+					<input type="text" placeholder="请输入正确的邮箱~" name="email" value="${searchuser.email}"/>
 					<span >昵称：</span>
 					<input type="text" name="username" value="${searchuser.username}"/>
 					<span >QQ：</span>
@@ -85,6 +85,7 @@ table td{
 					<tr>
 						<th><input type="checkbox" id="selectAllButton"></th>
 						<th>ID</th>
+						<th>邮箱地址</th>
 						<th>手机号</th>
 						<th>昵称</th>
 						<th>QQ</th>
@@ -98,6 +99,7 @@ table td{
 						<tr>
 							<td ><input type="checkbox" name="itemIds" value="${item.id}"></td>
 							<td>${item.id}</td>
+							<td>${item.email}</td>
 							<td>${item.phone}</td>
 							<td>${item.username}</td>
 							<td>${item.qq}</td>
@@ -158,6 +160,12 @@ table td{
              <input type="hidden" id="id" name="id" value=""/>
              <input type="hidden" id="power" name="power" value=""/>
               <input type="hidden" id="goodsNum" name="goodsNum" value=""/>
+				<div class="form-group">
+					<label class="col-sm-4 control-label" >邮箱地址:</label>
+					<div class="col-sm-8">
+						<input type="text" class="form-control" id="my_email" name="email" style="margin-top: 8px;"/>
+					</div>
+				</div>
             	<div class="form-group">
 					 <label class="col-sm-4 control-label" >手机号:</label>
 					<div class="col-sm-8">
@@ -216,6 +224,12 @@ table td{
              <input type="hidden" id="id" name="id" value=""/>
             	 <input type="hidden" id="power" name="power" value=""/>
             	  <input type="hidden" id="goodsNum" name="goodsNum" value=""/>
+				<div class="form-group">
+					<label class="col-sm-4 control-label" >邮箱地址:</label>
+					<div class="col-sm-8">
+						<input type="text" class="form-control" id="my_emali" name="email" readonly style="margin-top: 8px;"/>
+					</div>
+				</div>
             	<div class="form-group">
 					 <label class="col-sm-4 control-label" >手机号:</label>
 					<div class="col-sm-8">
@@ -286,6 +300,7 @@ table td{
 						$('#myviewform').find("input[name='id']").val(json.id);
 						$('#myviewform').find("input[name='power']").val(json.power);
 						$('#myeditform').find("input[name='goodsNum']").val(json.goodsNum);
+						$('#myviewform').find("input[name='email']").val(json.email);
 						$('#myviewform').find("input[name='phone']").val(json.phone);
 						$('#myviewform').find("input[name='username']").val(json.username);
 						$('#myviewform').find("input[name='qq']").val(json.qq);
@@ -317,6 +332,7 @@ table td{
 						$('#myeditform').find("input[name='id']").val(json.id);
 						$('#myeditform').find("input[name='goodsNum']").val(json.goodsNum);
 						$('#myeditform').find("input[name='power']").val(json.power);
+						$('#myeditform').find("input[name='email']").val(json.email);
 						$('#myeditform').find("input[name='phone']").val(json.phone);
 						$('#myeditform').find("input[name='username']").val(json.username);
 						$('#myeditform').find("input[name='qq']").val(json.qq);

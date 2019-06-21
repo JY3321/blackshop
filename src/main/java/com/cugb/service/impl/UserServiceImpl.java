@@ -103,9 +103,9 @@ public class UserServiceImpl implements UserService {
 	}
 
 	@Override
-	public List<User> getPageUserByUser(String phone, String username, String qq, int pageNum, int pageSize) {
+	public List<User> getPageUserByUser(String email, String username, String phone, int pageNum, int pageSize) {
 	 PageHelper.startPage(pageNum,pageSize);//分页核心代码
-	 List<User> list= userMapper.getUserListByUser(phone,username,qq);
+	 List<User> list= userMapper.getUserListByUser(email,username,phone);
 	 return list;
 	
 	}

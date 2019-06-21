@@ -121,7 +121,6 @@
     </nav>
 </div>
 <!--
-
     描述：登录
 -->
 <div ng-controller="loginController" class="ng-scope">
@@ -131,17 +130,21 @@
                 <a onclick="showLogin()">
                     <div class="col s12 title"></div>
                 </a>
-                <form:form action="../user/login" method="post" commandName="user" role="form">
+                <form action="<%=basePath%>user/login" method="post" role="form">
                     <div class="input-field col s12">
-                        <input type="text" name="phone" required="required" pattern="^1[0-9]{10}$" class="validate ng-pristine ng-empty ng-invalid ng-invalid-required ng-valid-pattern ng-touched" />
-                        <label>手机</label>
+                        <input type="text" name="email" id="login_email" required="required" pattern="^[a-zA-Z0-9_-]+@[cugb]+\.[edu]+\.[cn]+$" class="validate ng-pristine ng-empty ng-invalid ng-invalid-required ng-valid-pattern ng-touched" />
+                        <label>邮箱&nbsp;&nbsp;<div id="login_errorEmail" style="color:red;display:inline;"></div></label>
                     </div>
+                    <%--                    <div clauss="inpt-field col s12">--%>
+                    <%--                        <input type="text" name="phone" id="login_phone" required="required" pattern="^1[0-9]{10}$" class="validate ng-pristine ng-empty ng-invalid ng-invalid-required ng-valid-pattern ng-touched" />--%>
+                    <%--                        <label>手机&nbsp;&nbsp;<div id="login_errorPhone" style="color:red;display:inline;"></div></label>--%>
+                    <%--                    </div>--%>
                     <div class="input-field col s12">
-                        <input type="password" name="password" required="required" class="validate ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required" />
-                        <label>密码</label>
-                        <!-- <a ng-click="showForget()" class="forget-btn">忘记密码？</a> -->
+                        <input type="password" id="login_password"  name="password" required="required" class="validate ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required" />
+                        <label>密码&nbsp;&nbsp;<div id="errorPassword" style="color:red;display:inline;"></div></label>
+                        <!--   <a ng-click="showForget()" class="forget-btn">忘记密码？</a> -->
                     </div>
-                    <button type="submit" class="waves-effect waves-light btn login-btn red lighten-1">
+                    <button type="submit" id="loginIn" class="waves-effect waves-light btn login-btn red lighten-1">
                         <i class="iconfont left"></i>
                         <em>登录</em>
                     </button>
@@ -150,7 +153,7 @@
                         <a onclick="showSignup()" class="signup-btn">注册</a>
                         <em>吧！</em>
                     </div>
-                </form:form>
+                </form>
             </div>
         </div>
     </div>
@@ -166,21 +169,25 @@
                 <a onclick="showSignup()">
                     <div class="col s12 title"></div>
                 </a>
-                <form:form action="../user/addUser" method="post" commandName="user" role="form">
+                <form action="<%=basePath%>user/addUser" method="POST" role="form" id="signup_form">
+                    <div class="input-field col s12">
+                        <input type="text" name="email" id="email" required="required" pattern="^[a-zA-Z0-9_-]+@[cugb]+\.[edu]+\.[cn]+$" class="validate ng-pristine ng-empty ng-invalid ng-invalid-required ng-valid-pattern ng-touched" />
+                        <label>邮箱<div id="errorEmail" style="color:red;display:inline;"></div></label>
+                    </div>
                     <div class="input-field col s12">
                         <input type="text" name="username" required="required" class="validate ng-pristine ng-empty ng-invalid ng-invalid-required ng-valid-pattern ng-touched" />
                         <label>昵称</label>
                     </div>
-                    <div class="input-field col s12">
-                        <input type="text" name="phone" required="required" pattern="^1[0-9]{10}$" class="validate ng-pristine ng-empty ng-invalid ng-invalid-required ng-valid-pattern ng-touched" />
-                        <label>手机</label>
-                    </div>
+                    <%--                    <div class="input-field col s12">--%>
+                    <%--                        <input type="text" name="phone" id="phone" required="required" pattern="^[0-9]{11}$" class="validate ng-pristine ng-empty ng-invalid ng-invalid-required ng-valid-pattern ng-touched" />--%>
+                    <%--                        <label>手机&nbsp;&nbsp;<div id="errorPhone" style="color:red;display:inline;"></div></label>--%>
+                    <%--                    </div>--%>
                     <div class="input-field col s12">
                         <input type="password" name="password" required="required" class="validate ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required" />
                         <label>密码</label>
                     </div>
                     <div ng-show="checkTelIsShow" class="col s12">
-                        <button type="submit" class="waves-effect waves-light btn verify-btn red lighten-1">
+                        <button type="submit" id="register" class="waves-effect waves-light btn verify-btn red lighten-1">
                             <i class="iconfont left"></i>
                             <em>点击注册</em>
                         </button>
@@ -189,7 +196,7 @@
                         <em>已有账号？去</em>
                         <a onclick="showLogin()">登录</a>
                     </div>
-                </form:form>
+                </form>
             </div>
         </div>
     </div>

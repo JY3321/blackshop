@@ -113,9 +113,13 @@
                         <input class="in_info" type="text" name="createAt" value="${cur_user.createAt}" readonly="true"/>
                     </div><hr />
                     <div class="changeinfo">
-                        <span>手机号码：</span>
-                        <input class="in_info" type="text" name="phone" value="${cur_user.phone}" readonly="true"/>
+                        <span>电子邮件：</span>
+                        <input class="in_info" type="text" name="email" value="${cur_user.email}" readonly="true"/>
                         <span id="checkphone">已验证</span>
+                    </div><hr />
+                    <div class="changeinfo">
+                        <span>手机号码：</span>
+                        <input class="in_info" type="text" name="phone" placeholder="请输入手机号" value="${cur_user.phone}"/>
                     </div><hr />
                     <div class="changeinfo">
                         <span>QQ：</span>

@@ -226,7 +226,7 @@ table td{
 				<div class="form-group">
 					 <label class="col-sm-4 control-label" >状态:</label>
 					<div class="col-sm-8">
-						<select name="form" style="margin-top: 8px;width: 372px;height: 27px;">
+						<select name="status" style="margin-top: 8px;width: 372px;height: 27px;">
 						<option value="0" selected="selected">下架</option>
 						<option value="1">上架</option>
 						<option value="2">已售</option>
@@ -295,7 +295,7 @@ table td{
 				<div class="form-group">
 					 <label class="col-sm-4 control-label" >状态:</label>
 					<div class="col-sm-8">
-						<input type="text" class="form-control" id="my_form" name="form" readonly style="margin-top: 8px;"/>
+						<input type="text" class="form-control" id="my_form" name="select" readonly style="margin-top: 8px;"/>
 					</div>
 				</div>
 			  </form>
@@ -344,9 +344,9 @@ table td{
 						$('#myviewform').find("input[name='realPrice']").val(json.realPrice);
 						$('#myviewform').find("input[name='startTime']").val(json.startTime);
 						$('#myviewform').find("textarea[name='describle']").val(json.describle);
-						if(json.form==1){
+						if(json.status==1){
 							$('#myviewform').find("input[name='form']").val('在售');
-						}else if(json.form==0){
+						}else if(json.status==0){
 							$('#myviewform').find("input[name='form']").val('下架');
 						}else{
 							$('#myviewform').find("input[name='form']").val('已售');
@@ -377,7 +377,7 @@ table td{
 						$('#myeditform').find("input[name='realPrice']").val(json.realPrice);
 						$('#myeditform').find("input[name='startTime']").val(json.startTime);
 						$('#myeditform').find("textarea[name='describle']").val(json.describle);
-						$('#myeditform').find("select[name='form']").val(json.form);
+						$('#myeditform').find("select[name='status']").val(json.status);
 						$('#editModal').modal('toggle');
 					}
 				},

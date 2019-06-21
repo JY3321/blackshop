@@ -4,6 +4,7 @@
   <resultMap id="BaseResultMap" type="com.cugb.pojo.User" >
     <id column="id" property="id" jdbcType="INTEGER" />
     <result column="phone" property="phone" jdbcType="CHAR" />
+    <result column="email" property="email" jdbcType="CHAR" />
     <result column="username" property="username" jdbcType="VARCHAR" />
     <result column="password" property="password" jdbcType="CHAR" />
     <result column="QQ" property="qq" jdbcType="VARCHAR" />
@@ -14,7 +15,7 @@
     <result column="status" property="status" jdbcType="TINYINT" />
   </resultMap>
   <sql id="Base_Column_List" >
-    id, phone, username, password, QQ, create_at, goods_num, power, last_login, status
+    id, email, phone, username, password, QQ, create_at, goods_num, power, last_login, status
   </sql>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
     select 
@@ -46,17 +47,17 @@
     from user
     where id = #{id,jdbcType=INTEGER}
   </select>
-   <!--根据手机号 用户名 qq查询用户-->
+   <!--根据邮箱 用户名 手机号查询用户-->
   <select id="getUserListByUser" resultMap="BaseResultMap" parameterType="String">
     select * from user where 1=1  
-    <if test="phone != '' and phone != null" >
-    AND phone like concat('%',#{phone},'%') 
+    <if test="email != '' and email != null" >
+    AND email like concat('%',#{email},'%')
     </if>
     <if test="username != '' and username != null" >
     AND username like concat('%',#{username},'%') 
     </if>
-    <if test=" qq != '' and qq != null" >
-    AND qq like concat('%',#{qq},'%')
+    <if test="phone != '' and phone != null" >
+    AND phone like concat('%',#{phone},'%')
     </if>
     </select>
 	<select id="getUserListOrderByCreateAt" resultMap="BaseResultMap" parameterType="String">
@@ -67,11 +68,11 @@
     where id = #{id,jdbcType=INTEGER}
   </delete>
   <insert id="insert" parameterType="com.cugb.pojo.User" useGeneratedKeys="true" keyProperty="id">
-    insert into user (id, phone, username, 
+    insert into user (id, email, phone, username,
       password, QQ, create_at, 
       goods_num, power, last_login, 
       status)
-    values (#{id,jdbcType=INTEGER}, #{phone,jdbcType=CHAR}, #{username,jdbcType=VARCHAR}, 
+    values (#{id,jdbcType=INTEGER}, #{email,jdbcType=CHAR}, #{phone,jdbcType=CHAR}, #{username,jdbcType=VARCHAR},
       #{password,jdbcType=CHAR}, #{qq,jdbcType=VARCHAR}, #{createAt,jdbcType=VARCHAR}, 
       #{goodsNum,jdbcType=INTEGER}, #{power,jdbcType=INTEGER}, #{lastLogin,jdbcType=VARCHAR}, 
       #{status,jdbcType=TINYINT})
@@ -81,6 +82,9 @@
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="id != null" >
         id,
+      </if>
+      <if test="email != null" >
+        email,
       </if>
       <if test="phone != null" >
         phone,
@@ -113,6 +117,9 @@
     <trim prefix="values (" suffix=")" suffixOverrides="," >
       <if test="id != null" >
         #{id,jdbcType=INTEGER},
+      </if>
+      <if test="email != null" >
+        #{email,jdbcType=CHAR},
       </if>
       <if test="phone != null" >
         #{phone,jdbcType=CHAR},
@@ -149,6 +156,9 @@
       <if test="phone != null" >
         phone = #{phone,jdbcType=CHAR},
       </if>
+      <if test="email != null" >
+        email = #{email,jdbcType=CHAR},
+      </if>
       <if test="username != null" >
         username = #{username,jdbcType=VARCHAR},
       </if>
@@ -179,6 +189,7 @@
   <update id="updateByPrimaryKey" parameterType="com.cugb.pojo.User" >
     update user
     set phone = #{phone,jdbcType=CHAR},
+      email = #{email,jdbcType=CHAR},
       username = #{username,jdbcType=VARCHAR},
       password = #{password,jdbcType=CHAR},
       QQ = #{qq,jdbcType=VARCHAR},

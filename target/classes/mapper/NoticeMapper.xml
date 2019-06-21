@@ -10,6 +10,7 @@
 	</resultMap>
 	<resultMap id="userMap" type="com.cugb.pojo.User" >
 	   <id column="id" property="id" jdbcType="INTEGER" />
+	   <result column="email" property="email" jdbcType="CHAR" />
 	   <result column="phone" property="phone" jdbcType="CHAR" />
 	   <result column="username" property="username" jdbcType="VARCHAR" />
 	   <result column="password" property="password" jdbcType="CHAR" />

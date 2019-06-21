@@ -186,13 +186,13 @@ public class AdminController {
 		int pageNum = 1;
 		int pageSize = 10;
 		int total = userService.getUserNum();
-		String phone = user.getPhone();
+		String email = user.getEmail();
 		String username = user.getUsername();
 		String qq = user.getQq();
-		List<User> rows = userService.getPageUserByUser(phone, username, qq, pageNum, pageSize);
+		List<User> rows = userService.getPageUserByUser(email, username, qq, pageNum, pageSize);
 		UserGrid userGrid = new UserGrid();
 		User searchuser = new User();
-		searchuser.setPhone(phone);
+		searchuser.setEmail(email);
 		searchuser.setUsername(username);
 		searchuser.setQq(qq);
 		userGrid.setCurrent(pageNum);
@@ -246,6 +246,7 @@ public class AdminController {
 		goods.setUserId(oldGoods.getUserId());
 		goods.setPolishTime(oldGoods.getPolishTime());
 		goods.setEndTime(oldGoods.getEndTime());
+		//goods.setStatus(oldGoods.getStatus());
 		try {
 			goodsService.updateGoodsByPrimaryKeyWithBLOBs(goods.getId(), goods);
 		} catch (Exception e) {

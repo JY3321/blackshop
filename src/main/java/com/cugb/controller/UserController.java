@@ -88,7 +88,7 @@ public class UserController {
 	public String register(HttpServletRequest request){
 		String email=request.getParameter("email");
 		User user = userService.getUserByEmail(email);
-		if(user==null) {
+		if(user!=null) {
 			return "{\"success\":true,\"flag\":false}";//用户存在，注册失败
 		}else {
 			return "{\"success\":true,\"flag\":true}";//用户不存在，可以注册
@@ -119,7 +119,6 @@ public class UserController {
 				return "{\"success\":true,\"flag\":true}";//密码错误
 			}
 		}
-		
 	}
 	
 

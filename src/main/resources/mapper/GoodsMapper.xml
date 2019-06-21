@@ -24,6 +24,7 @@
   </resultMap>
   <resultMap id="userMap" type="com.cugb.pojo.User" >
     <result column="phone" property="phone" jdbcType="CHAR" />
+    <result column="email" property="email" jdbcType="CHAR" />
     <result column="username" property="username" jdbcType="VARCHAR" />
     <result column="password" property="password" jdbcType="CHAR" />
     <result column="QQ" property="qq" jdbcType="VARCHAR" />
@@ -84,6 +85,7 @@
 	  		bb.create_at,
 	  		cc.id as 'userid',
 	  		cc.phone,
+	  		cc.email,
 	  		cc.username,
 	  		cc.password,
 	  		cc.QQ,

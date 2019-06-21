@@ -15,11 +15,11 @@
     $(document).ready(function(){
         //异步验证
         $("#account").blur(function(){
-          var phone=$(this).val();
+          var email=$(this).val();
           $.ajax({
 				url:'<%=basePath%>user/register',
 				type:'POST',
-				data:{phone:phone},
+				data:{email:email},
 				dataType:'json',
 				success:function(json){
 					if(json.flag){
