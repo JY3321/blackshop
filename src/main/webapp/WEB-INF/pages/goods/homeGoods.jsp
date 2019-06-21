@@ -194,7 +194,7 @@
                 </a>
                 <form action="<%=basePath%>user/login" method="post" role="form">
                     <div class="input-field col s12">
-                        <input type="text" name="email" id="login_email" required="required" pattern="^[a-zA-Z0-9_-]+@[cugb]+\.[edu]+\.[cn]+$" class="validate ng-pristine ng-empty ng-invalid ng-invalid-required ng-valid-pattern ng-touched" />
+                        <input type="text" name="email" placeholder="请以xxxx@cugb.edu.com的格式输入" id="login_email" required="required" pattern="^[a-zA-Z0-9_-]+@[cugb]+\.[edu]+\.[cn]+$" class="validate ng-pristine ng-empty ng-invalid ng-invalid-required ng-valid-pattern ng-touched" />
                         <label>邮箱&nbsp;&nbsp;<div id="login_errorEmail" style="color:red;display:inline;"></div></label>
                     </div>
 <%--                    <div clauss="inpt-field col s12">--%>
@@ -233,7 +233,7 @@
                 </a>
                 <form action="<%=basePath%>user/addUser" method="POST" role="form" id="signup_form">
                     <div class="input-field col s12">
-                        <input type="text" name="email" id="email" required="required" pattern="^[a-zA-Z0-9_-]+@[cugb]+\.[edu]+\.[cn]+$" class="validate ng-pristine ng-empty ng-invalid ng-invalid-required ng-valid-pattern ng-touched" />
+                        <input type="text" name="email" placeholder="请以xxxx@cugb.edu.com的格式输入" id="email" required="required" pattern="^[a-zA-Z0-9_-]+@[cugb]+\.[edu]+\.[cn]+$" class="validate ng-pristine ng-empty ng-invalid ng-invalid-required ng-valid-pattern ng-touched" />
                         <label>邮箱<div id="errorEmail" style="color:red;display:inline;"></div></label>
                     </div>
                     <div class="input-field col s12">
